@@ -39,6 +39,13 @@ const Intro = () => {
     <div className="app__video">
         <h1>container- Intro</h1>
         <h1>useRef, video, ref=vidRef</h1>
+
+        <div>
+            react-icons
+            <BsPauseFill/>
+            <BsFillPlayFill/>        
+        </div>
+
         <h3>    onClick        
         setPlayVideo(!playVideo);    
         

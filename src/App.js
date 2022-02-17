@@ -1,6 +1,5 @@
 
-import { Navbar } from './components';
-import { Awards, Intro } from './container-sections';
+import { Awards, Intro, Navbar } from './container-sections';
 
 import './App.css';
 
@@ -10,11 +9,11 @@ function App() {
 
     <div>
       {/*🍀  test */}      
-      <div className="" style={{ background: 'yellow'}}>test</div>
+      <h1 className="" style={{ background: 'yellow'}}>test</h1>
 
       {/* containers , components*/}
 
-      <Navbar/>    
+      <Navbar/>
       <Intro/>
       <Awards/> 
     </div>
