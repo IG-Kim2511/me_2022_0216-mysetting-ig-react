@@ -1,0 +1,45 @@
+.app__navbar{    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-black);
+    padding: 1rem 2rem;
+}
+
+.app__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__navbar-logo img{    
+    width: 150px;
+}
+
+.app__navbar-links{
+    
+    /*
+     🦄 flex: 1 👉
+    flex-grow : 1;        (여백을 각 div가 1씩 똑같이 나눠가짐)
+    flex-shrink : 1;      (화면크기따라서 같이 작아짐)
+    flex-basis : 0;     (기본크기 0)   
+    */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+}
+
+.app__navbar-links li{
+    /* background-color: yellow; */
+    /* color: white; */
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app__navbar-links li:hover{
+    color: var(--color-grey);
+} 
