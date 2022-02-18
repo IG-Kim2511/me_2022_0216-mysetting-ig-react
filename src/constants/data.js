@@ -5,6 +5,8 @@ const wines = [
     title: 'Chapel Hill Shiraz',
     price: '$56',
     tags: 'AU | Bottle',
+    aaaa:['bb','c','d']
+
   },
   {
     title: 'Catena Malbee',
