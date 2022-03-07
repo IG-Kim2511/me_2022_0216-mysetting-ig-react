@@ -32,6 +32,10 @@ function App() {
       <Navbar/>
       <Intro/>
       <Awards/> 
+
+      <div className="navbar"></div>
+      
+      
     </div>
   );
 }
